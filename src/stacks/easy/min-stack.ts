@@ -9,12 +9,8 @@ Implement the MinStack class:
 - number getMin() retrieves the minimum element in the stack.
 
 Example:
-Input:
-["MinStack","push","push","push","getMin","pop","top","getMin"]
-[[],[-2],[0],[-3],[],[],[],[]]
-
-Output:
-[null,null,null,null,-3,null,0,-2]
+Input: ["MinStack","push","push","push","getMin","pop","top","getMin"] -> [[],[-2],[0],[-3],[],[],[],[]]
+Output: [null,null,null,null,-3,null,0,-2]
 
 Time Complexity: O(1) for all operations
 Space Complexity: O(n)
